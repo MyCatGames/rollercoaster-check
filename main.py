@@ -20,7 +20,7 @@ while running:
     age = int(input)("Voer leeftijd in: ")
     height = int(input)("Voer lengte in: ")
     age = int(age)
-    height = (height)
+    height = int(height)
 
     #Process checks
     if(age > age_check and height > height_check):
